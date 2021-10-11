@@ -171,7 +171,7 @@ AWS Lambda is a serverless computing service that executes the code in response 
 
 ![Architecture](./images/architecture.png)
 
-#### __3.2 ETL Workflow orchestration__
+#### __3.2 ETL Step Function Layout__
 
 ![StepFuncnExec](./images/stepfunction_flow.png)
 
