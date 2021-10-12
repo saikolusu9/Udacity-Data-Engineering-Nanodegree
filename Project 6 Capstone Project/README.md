@@ -252,7 +252,7 @@ __Inference__ : We can see that the number of collisions increase by each passin
 
 __3.Vehicle types that caused most deaths__
 
-![vehicle](./images/top_10_vehicle_types.JPG)
+![vehicle](./images/top_10_vehicle_types.png)
 
 __Inference__ : Not surprisingly SUVs casued most number of deaths with more than 2200 people getting killed hit by SUV.
 
