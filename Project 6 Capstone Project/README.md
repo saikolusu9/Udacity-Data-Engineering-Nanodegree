@@ -230,6 +230,42 @@ Please refer to the data dictionary given here
 ## __Step 5: Complete Project Write Up__
 I believe that I have covered most of the things in the above write up. Now that this dataset is available in a AWS Redshift Data Warehouse, this can be consumed by the Data Scientists or Data Analysts to create predicitve models and visualization to do a deeper analysis on the factors influencing NY accidents. 
 
+I have tried to create some visualizations using AWS Quicksight by connecting to the final data model in Redshift to get an insight into the various factors and distribution of crashes
+
+__1. Number of Collisions across each borough in NYC__
+
+![borough](./images/collisions_each_borough.JPG)
+
+__Inference__ : We can see that about one third of collisions occur in Brooklyn. This is a bit surprising because it is smaller than Queens and as much populated, but still there is 8 percent difference between both the boroughs
+
+&nbsp;
+
+
+
+__2.Trend occurence of collisions at each hour__
+
+![hour](./images/occurence_of_collisions_each_hour.JPG)
+
+__Inference__ : We can see that the number of collisions increase by each passing hour throught out the day from very early morning hours untill evening 4 which is when maximum number of collisions occurs and then shows a downward trend till midnight. This is understandable as people start commuting to work in NYC from very early morning and day hours are usually very busy and from 4 people return to their homes.
+
+&nbsp;
+
+__3.Vehicle types that caused most deaths__
+
+![vehicle](./images/top_10_vehicle_types.JPG)
+
+__Inference__ : Not surprisingly SUVs casued most number of deaths with more than 2200 people getting killed hit by SUV.
+
+&nbsp;
+
+__4.Collisions by Driver Gender__
+
+![gender](./images/collisions_each_year_by_gender.JPG)
+
+__Inference__ : Again, not surprisingly Men are responsible for three-fourths of collisions. Intersting is that, the percentage almost remains the same for all the years.
+
+
+These are some of the many scenarios which Data Analysts can try to visualize the data.
 Since the pipeline makes the data available in Redshift on a daily basis, it empowers the NYPD department to monitor the traffic very closely
 
 ### __Future Design Considerations__
